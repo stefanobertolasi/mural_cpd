@@ -1,0 +1,19 @@
+name: .venv
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11.13
+  - pip
+  - pip:
+      - astropy==7.1.0
+      - asttokens==3.0.0
+      - beartype==0.21.0
+      - click==8.2.1
+      - colorama==0.4.6
+      - comm==0.2.2
+      - matplotlib==3.10.3
+      - numpy==2.2.6
+      - PyWavelets==1.8.0
+      - scikit-learn==1.7.0
+      - scipy==1.15.3
+      - tqdm==4.67.1
